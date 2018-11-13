@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Spring Colud Config Client</title>
+<style type="text/css">
+.wrapper {
+display: grid;
+grid-template-columns: 1fr;
+justify-items: center;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div th:text="'Game: ' + ${game}"></div>
+<div th:text="'Version: ' + ${version}"></div>
+</div>
+
+</body>
+</html>
